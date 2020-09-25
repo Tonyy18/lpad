@@ -30,8 +30,17 @@ def ondata(data):
 @launchpad.feature
 def keypress(note):
     print(note)
+    
+@launchpad.feature
+def keyup(note):
+    print(note)
+
+@launchpad.feature
+def modechanged():
+    print("ready")
 ```
 
+<b>modeChanged</b> and <b>modeReady</b> are only called if the modes operate in the same channel</p>
 <p>Before you can receive any events you must start listening incoming data</p>
 <p>This is done by calling the <b>poll</b> method</p>
 
