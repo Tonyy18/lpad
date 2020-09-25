@@ -4,3 +4,5 @@
 <p>Suitability for other Launchpads is not quaranteed</p>
 <p></p>
 <a href="https://player.vimeo.com/video/461906308">Preview video</a>
+
+<h3>Usage</h3>
