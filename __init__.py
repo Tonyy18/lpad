@@ -40,18 +40,21 @@ class Init:
         if("ondata" in funcs):
             funcs["ondata"](data)
 
-        if(self.mode == "live" or self.mode == "note"):
-            if(data["data"][1] == 127):
-                if("keypress" in funcs):
-                    funcs["keypress"](data["data"][0])
+        if(data["data"][1] == 127):
+            if("keypress" in funcs):
+                funcs["keypress"](data["data"][0])
+
+        if(data["data"][1] == 0):
+            if("keyup" in funcs):
+                funcs["keyup"](data["data"][0])
 
         if(data["status"] == 2):
             if("modechanged" in funcs):
                 funcs["modechanged"]()
         
         if(data["status"] == 247):
-            if("modeReady" in funcs):
-                funcs["modeReady"]()
+            if("modeready" in funcs):
+                funcs["modeready"]()
 
     def on(self, key, color):
         self.output.note_on(key, velocity=color, channel=0)
