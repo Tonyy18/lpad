@@ -68,6 +68,4 @@ launchpad.clear()
 <h2>Important</h2>
 <p>Launchpad pro has 5 different modes. <b>live</b>, <b>note</b>, <b>drum</b>, <b>fader</b> and <b>programmer</b></p>
 <p>Make sure you import the right mode in the constructor, otherwise it wont work properly</p>
-
-<p>Keys and events depends on the mode. For example <b>keypress</b> event is only in <b>live</b> and <b>note</b> modes<p>
 <p>Use the <b>onData</b> event to implement your own events for different modes</p>
