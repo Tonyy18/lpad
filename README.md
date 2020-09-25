@@ -5,6 +5,8 @@
 <p></p>
 <a href="https://player.vimeo.com/video/461906308">Preview video</a>
 
+![alt text](https://i.gyazo.com/e9ee4912c1a7e2bdc9eec0ec243ab7f6.jpg)
+
 <h2>Usage</h2>
 
 <p>The library is wrapped around pygame library in order to get access to midi devices</p>
