@@ -74,7 +74,7 @@ launchpad.clear()
 
 <p><b>clear</b> is used to turn off all lights</p>
 
-![alt text](https://lh3.googleusercontent.com/proxy/LeyiuHzIYylNTwewdXMBBs2hid4rXDo91P1jGucPC8_fVXJSwrpbe_QIX5_pKUPNtZT-9NB2QfT9blIyGbYDQNYTrWLWqqSlT5UDmVN6rLWG_w287UjlyMY-gJbjYl_KFGB1nHY-)
+![alt text](https://lh3.googleusercontent.com/proxy/3-sEEBM0z-D1g1cEjUuHd-CaEtQ_Jlag15ufm7cuL0T-rXAsVJM1PNQWvQs__oKYPueY0eEczvrVPkq8kbptDqK3G_rX1-EJa5wYwhpsD-Nl3yBL3n77rngAvNeL79AqW4fADIB4)
 
 <h2>Important</h2>
 <p>Launchpad pro has 5 different modes. <b>live</b>, <b>note</b>, <b>drum</b>, <b>fader</b> and <b>programmer</b></p>
